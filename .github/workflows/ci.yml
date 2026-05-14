@@ -22,4 +22,4 @@ jobs:
         with:
           contexts: ./backend
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/skillpulse-backend:vaidik
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/SkillPulse-backend:vaidik
