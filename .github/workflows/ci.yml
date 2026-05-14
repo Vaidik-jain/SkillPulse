@@ -20,6 +20,6 @@ jobs:
 
       - uses: docker/build-push-action@v7
         with:
-          contexts: ./backend
+          context: ./backend
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/SkillPulse-backend:vaidik
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/skillpulse-backend:latest
